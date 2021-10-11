@@ -50,3 +50,38 @@ height:200px;
 .img1{
    margin-top:50px;
 }
+@import url('https://fonts.googleapis.com/css2?family=playfair+display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=playfair+display:wght@400;500;600;700;800;900&family=poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=playfair+display:wght@400;500;600;700;800;900&family=poppins:wght@200;300;400&family=prompt:wght@300;400;500;600;700;800&family=secular+one&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.row {
+	display: flex;
+}
+
+.col-md-4 {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+button {
+	background-color: white;
+	border: 3px solid black;
+	height: 56px;
+	width: 150px;
+}
+button:hover {
+	background-color: black;
+	border: 3px solid white;
+	color: white;
+}
